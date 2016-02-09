@@ -1,0 +1,32 @@
+import com.kujtimhoxha.plugins.Find
+
+group 'com.kujtimhoxha.com.kujtimhoxha.gradle.test'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    repositories {
+        mavenLocal()
+    }
+    dependencies {
+        classpath "com.kujtimhoxha.plugins:todo-issue-plugin:0.3-SNAPSHOT"
+    }
+}
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    compile "com.kujtimhoxha.plugins:todo-issue-plugin:0.3-SNAPSHOT"
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+task find(){
+    Find mojo= new  Find();
+    mojo.gradleAdapter("/src",null,null,null)
+    println mojo.properties
+    mojo.execute();
+}
