@@ -20,6 +20,6 @@ You can clone this repository and test todo-issue.
 - Add an issue like described [here](https://github.com/kujtimiihoxha/todo-issue#syntax)
 - Run ```gradle task:find```
 
-Go to [issues page](https://github.com/kujtimiihoxha/testing-todo-issue/issues) and see your issues appear.
+Go to [issues page](https://github.com/kujtimiihoxha/gradle-todo-issue/issues) and see your issues appear.
 
 Close any issue you created and run ```gradle task:find``` again and you will se the todo-s will disappear from the source file.
