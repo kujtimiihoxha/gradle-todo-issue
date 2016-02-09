@@ -3,8 +3,9 @@ This project is created to demonstrate the use of [todo-issue](https://github.co
 ## Try it
 You can clone this repository and test todo-issue.
 
-- Clone repository
-- Create todo.json
+- Clone repository 
+- Run ``` gradle build ```
+- Create todo.json in the working directory (where build.gradle is).
 ```json
 {
   "git-server":"Github",
