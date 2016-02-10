@@ -20,12 +20,7 @@ public class MyTest {
     private static final String myString="Testing todo-issue";
 
     public static void myMethod(){
-        /**
-         * [todo] $ Testing If Find Runs On Build [issue=#3] $
-         * #/
-         * This issue is a test of todo-issue gradle integration
-         * #/
-         */
+        
         System.out.println("MyTest.myString = " + MyTest.myString);
     }
 }
