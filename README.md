@@ -10,12 +10,10 @@ You can clone this repository and test todo-issue.
 {
   "git-server":"Github",
   "gitlab-url":"https://gitlab.com/",
-  "type":"user",
   "repository-username":"kujtimiihoxha",
   "issuer-username":"{your-user}",
   "token":"{your-token}",
-  "repository":"gradle-todo-issue",
-  "project-id":"0"
+  "repository":"gradle-todo-issue"
 }
 ```
 - Add an issue like described [here](https://github.com/kujtimiihoxha/todo-issue#syntax)
