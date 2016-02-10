@@ -28,3 +28,6 @@ task find(){
     todo.gradleAdapter("/src",null,null,null)
     todo.execute();
 }
+build{
+    dependsOn find
+}
