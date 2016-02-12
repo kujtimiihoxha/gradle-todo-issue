@@ -7,7 +7,7 @@ buildscript {
         mavenLocal()
     }
     dependencies {
-        classpath "com.kujtimhoxha.plugins:todo-issue-plugin:0.5"
+        classpath "com.kujtimhoxha.plugins:todo-issue-plugin:1.0.0"
     }
 }
 apply plugin: 'java'
@@ -20,13 +20,16 @@ repositories {
 }
 
 dependencies {
-    compile "com.kujtimhoxha.plugins:todo-issue-plugin:0.5"
+    compile "com.kujtimhoxha.plugins:todo-issue-plugin:1.0.0"
     testCompile group: 'junit', name: 'junit', version: '4.11'
 }
 task find(){
-    def todo= new  com.kujtimhoxha.plugins.Find()
-    todo.gradleAdapter("/src",null,null,null)
-    todo.execute()
+    def sources = new ArrayList<File>();
+    sources.add(
+            new File(System.getProperty("user.dir")
+                +"/src/main/java/com/kujtimhoxha/gradle/test"));
+    def todo= new  com.kujtimhoxha.plugins.todo.GradleRunner(sources)
+    todo.run()
 }
 build{
     dependsOn find

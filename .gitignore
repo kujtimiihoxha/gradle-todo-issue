@@ -10,4 +10,4 @@ gradle-app.setting
 !gradle-wrapper.jar
 
 /.idea
-/todo.json
+todo.json
