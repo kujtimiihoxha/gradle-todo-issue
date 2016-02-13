@@ -54,6 +54,6 @@
     <orderEntry type="library" name="Gradle: com.google.guava:guava:16.0.1" level="project" />
     <orderEntry type="library" name="Gradle: org.sonatype.plexus:plexus-cipher:1.4" level="project" />
     <orderEntry type="library" name="Gradle: javax.annotation:jsr250-api:1.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.kujtimhoxha.plugins:todo-issue-plugin:1.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.kujtimhoxha.plugins:todo-issue-plugin:1.0.1" level="project" />
   </component>
 </module>

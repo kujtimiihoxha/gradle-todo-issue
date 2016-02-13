@@ -11,7 +11,7 @@ You can clone this repository and test todo-issue.
   "repository-username":"kujtimiihoxha",
   "issuer-username":"{your-user}",
   "token":"{your-token}",
-  "repository":"gradle-todo-issue"
+  "repository":"gradle-todo-issue",
   "file-link":true
 }
 ```
